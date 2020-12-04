@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: WEB端权限判断
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com  
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\common\behavior;
 
@@ -13,7 +13,7 @@ class AuthenticateBehavior
 {
 	public function run(&$params)
 	{
-        /*防止跨域*/      
+        //防止跨域
         header('Access-Control-Allow-Origin: '.$_SERVER['HTTP_ORIGIN']);
         header('Access-Control-Allow-Credentials: true');
         header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
@@ -28,7 +28,7 @@ class AuthenticateBehavior
 		
 		$allow = $params['allow']; //登录用户可访问
 		$permission = $params['permission']; //无限制
-		/*获取头部信息*/ 
+		//获取头部信息
         $header = $request->header();
         $authKey = $header['authkey'];
         

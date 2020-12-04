@@ -119,7 +119,7 @@ function money_view($money)
 
 /**
  * 高级筛选条件
- * @author Michael_xu
+ * @author Jerry_yan
  * @param  $array 条件数组
  * @param  $module 相关模块
  * @return string           
@@ -214,7 +214,7 @@ function where_arr($array = [], $m = '', $c = '', $a = '')
 
 /**
  * 根据搜索生成where条件
- * @author Michael_xu
+ * @author Jerry_yan
  * @param  string $search 搜索内容
  * @param  $condition 搜索条件
  * @return array           
@@ -250,7 +250,7 @@ function field($search, $condition = '')
 
 /**
  * 将单个搜索转换为高级搜索格式
- * @author Michael_xu
+ * @author Jerry_yan
  * @param  string $value 搜索内容
  * @param  $condition 搜索条件
  * @return array           
@@ -269,7 +269,7 @@ function field_arr($value, $condition = '')
 
 /**
  * 记录操作日志 
- * @author Michael_xu
+ * @author Jerry_yan
  * @param  $id array  操作对象id数组
  * @return       
  */
@@ -323,7 +323,7 @@ function actionLog($id, $join_user_ids='', $structure_ids='', $content='')
 
 /**
  * 判断操作权限
- * @author Michael_xu 
+ * @author Jerry_yan
  * @param  
  * @return       
  */    
@@ -418,7 +418,7 @@ function rulesDeal($data)
 
 /**
  * 获取下属userId
- * @author Michael_xu
+ * @author Jerry_yan
  * @param $self == true  包含自己
  * @param $type == 0  下属userid
  * @param $type == 1  全部userid
@@ -460,7 +460,7 @@ function getSubUserId($self = true, $type = 0, $user_id = '')
 
 /**
  * 获取下属userId
- * @author Michael_xu
+ * @author Jerry_yan
  */
 function getSubUser($userId, $queried = [])
 {
@@ -532,7 +532,7 @@ function emailSend($email_host, $email_id, $email_pass, $email_addr, $toemail, $
 
 /**
  * 发送站内信
- * @author Michael_xu
+ * @author Jerry_yan
  * @param  $user_id 接收人user_id
  * @param  $action_id 操作id
  * @param  $sysMessage 1为系统消息
@@ -600,7 +600,7 @@ function format_bytes($size, $delimiter = '') {
  * @param $action_id 操作ID
  * @param $newData 新数据
  * @param $newData 新数据
- * @author Michael_xu
+ * @author Jerry_yan
  * @return 
  */
 function updateActionLog($user_id, $types, $action_id, $oldData = [], $newData = [], $content = '')
@@ -681,7 +681,7 @@ function updateActionLog($user_id, $types, $action_id, $oldData = [], $newData =
  * 截取字符串
  * @param $start 开始截取位置
  * @param $length 截取长度
- * @author Michael_xu
+ * @author Jerry_yan
  * @return 
  */
 function msubstr($str, $start = 0, $length, $charset="utf-8", $suffix=true) {
@@ -712,7 +712,7 @@ function utf8_strlen($string = null) {
 /**
  * 合法性验证
  * @param client_sign 签名参数值，使用相同规则对提交参数进行加密验证
- * @author Michael_xu
+ * @author Jerry_yan
  * @return 
  */
 function checkVerify($saftCode = '5kcrm@'){
@@ -759,7 +759,7 @@ function checkVerify($saftCode = '5kcrm@'){
 /**
  * 数组转换字符串（以逗号隔开）
  * @param 
- * @author Michael_xu
+ * @author Jerry_yan
  * @return 
  */
 function arrayToString($array)
@@ -779,7 +779,7 @@ function arrayToString($array)
 /**
  * 字符串转换数组（以逗号隔开）
  * @param 
- * @author Michael_xu
+ * @author Jerry_yan
  * @return 
  */
 function stringToArray($string)
@@ -881,7 +881,8 @@ function getTimeBySec($time){
         return (bool) FALSE;
     }
 }
-/*
+
+/**
  *根据年月计算有几天
  */
 function getmonthByYM($param)
@@ -1091,7 +1092,9 @@ function getFullPath($path)
     }
 }
 
-/*取得文件后缀*/
+/**
+ * 取得文件后缀
+ */
 function getExtension($filename){
     $mytext = substr($filename, strrpos($filename, '.')+1);
     return $mytext;
@@ -1110,8 +1113,8 @@ function prefixNumber($prefix, $number_id = 0, $str = 5)
 
 /**
 * curl 模拟GET请求
-* @author lee
-***/
+* @author Jerry_yan
+*/
 function curl_get($url){
     //初始化
     $ch = curl_init();
@@ -1130,7 +1133,7 @@ function curl_get($url){
 /**
  * 地址坐标转换
  * @param prefix 前缀
- * @author Michael_xu
+ * @author Jerry_yan
  * @return 
  */
 function get_lng_lat($address){
@@ -1181,7 +1184,9 @@ function exportexcel($data=array(),$title=array(),$filename='report'){
     }
 }
 
-//根据数据库查询出来数组获取某个字段拼接字符串
+/**
+ * 根据数据库查询出来数组获取某个字段拼接字符串
+*/
 function getFieldArray($array = array(),$field=''){
 	if(is_array($array) && $field){
 		$ary = array();
@@ -1376,7 +1381,7 @@ function curl_post($url = '', $post = array())
  * 输出json字符串，用于接口调试
  *
  * @return void
- * @author ymob
+ * @author Jerry_yan
  */
 function vdd()
 {
@@ -1400,7 +1405,7 @@ function vdd()
  * @param array $where
  * @param string $field
  * @return void
- * @author ymob
+ * @author Jerry_yan
  */
 function getWhereTimeByParam(&$where, $field = 'create_time')
 {
@@ -1427,7 +1432,7 @@ function getWhereTimeByParam(&$where, $field = 'create_time')
  * @param string $c
  * @param string $a
  * @return void
- * @author ymob
+ * @author Jerry_yan
  */
 function getWhereUserByParam(&$where, $field = 'owner_user_id', $m = '', $c = '', $a = '')
 {
@@ -1520,7 +1525,7 @@ function getAddress($ip)
  * @param string $name  下载名称
  * @param boolean $del  下载后删除
  * @return void
- * @author Ymob
+ * @author Jerry_yan
  */
 function download($file, $name = '', $del = false)
 {
@@ -1574,7 +1579,7 @@ function download($file, $name = '', $del = false)
  * @param   string  $ext       文件类型后缀
  * @param   string  $path      临时文件目录 默认 ./public/temp/
  * @return  string  $file_path 文件名称绝对路径
- * @author ymob
+ * @author Jerry_yan
  */
 function tempFileName($ext = '')
 {
@@ -1597,7 +1602,7 @@ function tempFileName($ext = '')
  *
  * @param string $dir
  * @return void
- * @author Ymob
+ * @author Jerry_yan
  */
 function delDir($dir)
 {
@@ -1624,7 +1629,7 @@ function delDir($dir)
  * @param string $sql   Sql语句
  * @param int $bi_slow_query_time   慢查询时间(毫秒)，默认读取Config(bi_slow_query_time)
  * @return mixed
- * @author Ymob
+ * @author Jerry_yan
  * @datetime 2019-11-21 17:36:50
  */
 function queryCache($sql = '', $bi_slow_query_time = null) {
@@ -1655,7 +1660,7 @@ function queryCache($sql = '', $bi_slow_query_time = null) {
  * @param int $start    开始时间（时间戳）
  * @param int $end      结束时间（时间戳）
  * @return array 
- * @author Ymob
+ * @author Jerry_yan
  * @datetime 2019-11-18 09:25:09
  */
 function getTimeArray($start = null, $end = null)
@@ -1765,7 +1770,7 @@ function getTimeArray($start = null, $end = null)
  *
  * @param integer $s
  * @return void
- * @author Ymob
+ * @author Jerry_yan
  * @datetime 2019-11-28 09:31:45
  */
 function tt($s = 0)
