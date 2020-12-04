@@ -11,6 +11,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/topthink/think-image" />
@@ -86,6 +89,7 @@
       <workItem from="1606724726842" duration="590000" />
       <workItem from="1606725683445" duration="4640000" />
       <workItem from="1606960157330" duration="7801000" />
+      <workItem from="1607060381349" duration="813000" />
     </task>
     <servers />
   </component>
