@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 附件
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 
 namespace app\admin\model;
@@ -23,7 +23,7 @@ class File extends Common
 	
 	/**
 	 * [createData 添加附件]
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param     $files 附件数组 
 	 * @param     $param [module : 模块, module_id : 模块ID]
 	 * @param     $x 裁剪图的长 ,$y 裁剪图的宽
@@ -147,7 +147,7 @@ class File extends Common
 
 	/**
 	 * [delFileById 删除附件]
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param     $save_name 附件保存名称 
 	 * @param     $param [module : 模块, module_id : 模块ID]
 	 * @return    [array]                         
@@ -197,7 +197,7 @@ class File extends Common
 
 	/**
 	 * 根据主键获取详情
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  array   $param  [description]
 	 */ 
 	public function getDataBySaveName($save_name = '')
@@ -218,7 +218,7 @@ class File extends Common
 
 	/**
 	 * 根据ID获取列表
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  string   module  [类型]
 	 * @param  string   by = all 全部（不分页）
 	 * @param  int   module_id  [类型ID]
@@ -285,7 +285,7 @@ class File extends Common
 	
 	/**
 	 * 根据表、字段更新上传图片
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  $file 附件信息
 	 * @param  $module 模块（判断权限）,一般是控制器，并且和表名一致
 	 * @param  $module_id 模块ID（判断权限）
@@ -342,7 +342,7 @@ class File extends Common
 
 	/**
 	 * 根据ID保存，处理逻辑关系
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  $ids 附件ID数组
 	 * @param  $module 表名
 	 * @param  $module_id 模块ID
@@ -384,7 +384,7 @@ class File extends Common
 
 	/**
 	 * 删除关系表附件
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  $module 模块
 	 * @param  $module_id 模块ID
 	 */	

@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 字段列表配置
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\admin\model;
 
@@ -23,7 +23,7 @@ class UserField extends Model
 
     /**
      * 设置配置信息
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param types 分类
      * @param param 参数
      * @param id 主键ID
@@ -79,7 +79,7 @@ class UserField extends Model
 
     /**
      * 配置信息详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param types 分类
      * @return                            
      */
@@ -91,7 +91,7 @@ class UserField extends Model
 
     /**
      * 配置列宽度
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param types 分类
      * @param field 字段
      * @param width 宽度
@@ -133,7 +133,7 @@ class UserField extends Model
 
     /**
      * 列表数据
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param types 分类
      * @return                            
      */

@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 场景
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com  
+// | Author:  Jerry_yan | yanjialin@tiefu66.com  
 // +----------------------------------------------------------------------
 
 namespace app\admin\model;
@@ -71,7 +71,7 @@ class Scene extends Common
 	/**
      * [getDataList 场景list]
      * @param  types 分类
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return    [array]
      */		
 	public function getDataList($types, $user_id)
@@ -128,7 +128,7 @@ class Scene extends Common
 	/**
 	 * 根据主键获取详情
 	 * @param  array   $param  [description]
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 */ 
 	public function getDataById($id = '', $user_id = '', $types = '')
 	{
@@ -158,7 +158,7 @@ class Scene extends Common
 	/**
 	 * 根据主键修改
 	 * @param  array   $param  [description]
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 */	
 	public function updateDataById($param, $id)
 	{
@@ -202,7 +202,7 @@ class Scene extends Common
 	 * @param types 类型
 	 * @param user_id 人员ID
 	 * @param id 场景ID
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 */	
 	public function defaultDataById($param, $id)	
 	{
@@ -230,7 +230,7 @@ class Scene extends Common
 	/**
 	 * 场景数据转换(字符串形式存储)
 	 * @param  
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @return                            
 	 */
 	public function dataChangeString($param = [])
@@ -282,7 +282,7 @@ class Scene extends Common
 	/**
 	 * 场景排序最大值
 	 * @param  
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @return                            
 	 */	
 	public function getMaxOrderid($types, $user_id)
@@ -294,7 +294,7 @@ class Scene extends Common
 	/**
 	 * 场景数据（转数组格式），用于where条件
 	 * @param  
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @return                            
 	 */		
 	public function dataChangeArray($string)
@@ -335,7 +335,7 @@ class Scene extends Common
 	 * 场景排序
 	 * @param  ids 场景id数组
 	 * @param  hide_ids 隐藏场景id数组
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @return                            
 	 */		  
 	public function listOrder($param, $user_id)
@@ -364,7 +364,7 @@ class Scene extends Common
 	/**
      * [getDefaultData 默认场景]
      * @param  types 分类
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return    [array]
      */		
 	public function getDefaultData($types, $user_id)
@@ -390,7 +390,7 @@ class Scene extends Common
 	/**
      * [getByData 系统场景数据]
      * @param  types 分类
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return    [array]
      */	
     public function getByData($types, $bydata, $user_id)
@@ -426,7 +426,7 @@ class Scene extends Common
 	/**
      * [updateData 跳过验证的编辑]
      * @param  types 分类
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return    [array]
      */	
     public function updateData($data, $scene_id)

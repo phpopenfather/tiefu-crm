@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 审批流程
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com
+// | Author: Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\admin\model;
 
@@ -25,7 +25,7 @@ class ExamineFlow extends Common
 
 	/**
      * [getDataList 审批流程list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -70,7 +70,7 @@ class ExamineFlow extends Common
 
 	/**
 	 * 创建审批流程信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -94,7 +94,7 @@ class ExamineFlow extends Common
 
 	/**
 	 * 编辑审批流程信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -131,7 +131,7 @@ class ExamineFlow extends Common
 
     /**
      * 审批流程详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return                            
      */ 

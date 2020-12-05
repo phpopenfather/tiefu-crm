@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 站内信
 // +----------------------------------------------------------------------
-// | Author:  ymob
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\admin\model;
 
@@ -324,7 +324,7 @@ class Message extends Common
     /**
      * 获取关联模块数据
      *
-     * @author Ymob
+     * @author Jerry_yan
      * @datetime 2019-10-22 15:34:35
      */
     public function getRelationTitleAttr($val, $data)

@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 评论
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 
 namespace app\admin\model;
@@ -28,7 +28,7 @@ class Comment extends Model
 
 	/**
      * 根据ID查看评论
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -62,7 +62,7 @@ class Comment extends Model
 
 	/**
      * 获取回复
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */		
@@ -81,7 +81,7 @@ class Comment extends Model
 	
 	/**
      * 新建评论
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */	 
@@ -127,7 +127,7 @@ class Comment extends Model
 
 	/**
      * 删除评论
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -147,7 +147,7 @@ class Comment extends Model
 
 	/**
      * 获取评论数
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */	

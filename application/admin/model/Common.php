@@ -14,7 +14,7 @@ class Common extends Model
 {
 	/**
 	 * [Request 请求参数]
-	 * @Michael_xu
+	 * @Jerry_yan
 	 * @return    [array]                       
 	 */	
 	protected function requestData()
@@ -32,7 +32,7 @@ class Common extends Model
 
 	/**
 	 * [fmtRequest 格式化请求参数]
-	 * @Michael_xu
+	 * @Jerry_yan
 	 * @param     [array]      $request [参数]
 	 * @return    [array]                       
 	 */
@@ -242,7 +242,7 @@ class Common extends Model
 
 	/**
 	 * 逻辑删除,将数据标记为删除状态
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 */	
 	public function signDelById($id)
 	{

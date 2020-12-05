@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 自定义字段
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\admin\model;
@@ -99,7 +99,7 @@ class Field extends Model
 
 	/**
 	 * [getDataList 获取列表] 
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param types  分类
 	 * @return    [array]                         
 	 */
@@ -129,7 +129,7 @@ class Field extends Model
 
 	/**
 	 * [createData 创建自定义字段] 
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param types 分类
 	 * @param field 字段名
 	 * @param name 字段标识名（字段注释）
@@ -274,7 +274,7 @@ class Field extends Model
 
 	/**
 	 * [settingValue 单选、下拉、多选值] 
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @return    [array]                         
 	 */		
 	public function settingValue($data)
@@ -300,7 +300,7 @@ class Field extends Model
 
 	/**
 	 * [updateDataById 編輯自定义字段] 
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param types 分类
 	 * @param field 字段名
 	 * @param name 字段标识名（字段注释）
@@ -418,7 +418,7 @@ class Field extends Model
 
 	/**
 	 * [delDataById 删除自定义字段] 删除逻辑数据不可恢复，谨慎操作
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param $id [array] 字段ID
 	 * @param $types 分类
 	 */	
@@ -492,7 +492,7 @@ class Field extends Model
 
 	/**
 	 * [createField 随机生成自定义字段名]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param $field_str 字段名前缀
 	 * @param $types 分类
 	 */
@@ -510,7 +510,7 @@ class Field extends Model
 
 	/**
 	 * [field 获取自定义字段信息]
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param $types 分类
 	 * @param $dataInfo 数据展示
 	 * @param $map  查询条件
@@ -749,7 +749,7 @@ class Field extends Model
 
 	/**
 	 * [fieldSearch 获取自定义字段高级筛选信息]
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param $types 分类
 	 * @param $map  查询条件
 	 * @param form_type  字段类型 （’text’,’textarea’,’mobile’,’email’等） 
@@ -835,7 +835,7 @@ class Field extends Model
 
 	/**
 	 * [validateField 自定义字段验证规则] 
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param 
 	 */	
 	public function validateField($types, $types_id = 0)
@@ -893,7 +893,7 @@ class Field extends Model
 
 	/**
 	 * [getIndexField 列表展示字段]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param types 分类	
 	 */
 	public function getIndexFieldConfig($types, $user_id)
@@ -929,7 +929,7 @@ class Field extends Model
 	 * 获取列表展示字段
 	 *
 	 * @return void
-	 * @author Ymob
+	 * @author Jerry_yan
 	 * @datetime 2019-10-23 17:32:57
 	 */
 	public function getFieldList($types)
@@ -967,7 +967,7 @@ class Field extends Model
 
 	/**
 	 * [getIndexField 列表展示字段]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param types 分类	
 	 * @param is_data 1 取数据时
 	 */
@@ -1055,7 +1055,7 @@ class Field extends Model
 
 	/**
 	 * [checkFieldPer 判断权限]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param types 分类	
 	 */	
 	public function checkFieldPer($module, $controller, $action, $user_id = '')
@@ -1068,7 +1068,7 @@ class Field extends Model
 
 	/**
 	 * [getField 获取字段属性]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param types 分类	
 	 */	
 	public function getField($param)
@@ -1146,7 +1146,7 @@ class Field extends Model
 
 	/**
 	 * [getFieldByFormType 根据字段类型获取字段数组]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param types 分类	
 	 */	
 	public function getFieldByFormType($types, $form_type)
@@ -1157,7 +1157,7 @@ class Field extends Model
 
 	/**
 	 * [getFormValueByField 格式化表格字段类型值]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param $field 字段名
 	 * @param $value 字段值
 	 */	
@@ -1180,7 +1180,7 @@ class Field extends Model
 
 	/**
 	 * 根据form_type处理数据
-	 * @author lee
+	 * @author Jerry_yan
 	 */
 	public function getValueByFormtype($val, $form_type)
 	{
@@ -1201,7 +1201,7 @@ class Field extends Model
 
 	/**
 	 * [getIndexFieldList 列表展示字段]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param types 分类	
 	 */
 	public function getIndexFieldList($types, $user_id)
@@ -1213,7 +1213,7 @@ class Field extends Model
 
 	/**
 	 * [getArrayField 数组类型字段]
-	 * @author Michael_xu 
+	 * @author Jerry_yan 
 	 * @param types 分类	
 	 */	
 	public function getArrayField($types)
@@ -1225,7 +1225,7 @@ class Field extends Model
 
 	/**
      * 字段对照关系处理
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  $types 分类
      * @param  $data 数据
      * @return 
@@ -1249,7 +1249,7 @@ class Field extends Model
 
 	/**
      * 字段排序
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param types 自定义字段分类
      * @param prefix 自定义字段前缀
      * @param field 自定义字段

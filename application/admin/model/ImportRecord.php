@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 导入记录
 // +----------------------------------------------------------------------
-// | Author:  ymob
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\admin\model;
 
@@ -19,7 +19,7 @@ class ImportRecord extends Common
      *
      * @param array     $data
      * @return void
-     * @author Ymob
+     * @author Jerry_yan
      * @datetime 2019-10-22 11:46:41
      */
     public function createData($data)

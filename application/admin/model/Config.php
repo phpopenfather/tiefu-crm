@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 应用配置
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com
+// | Author: Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 
 namespace app\admin\model;
@@ -30,7 +30,7 @@ class Config extends Common
 	
 	/**
      * 编辑
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */	
 	public function updateDataById($param, $id)

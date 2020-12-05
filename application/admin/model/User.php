@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 用户
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author:  Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\admin\model;
@@ -38,7 +38,7 @@ class User extends Common
 	 * 导入字段
 	 *
 	 * @var array
-	 * @author Ymob
+	 * @author Jerry_yan
 	 * @datetime 2019-10-25 15:35:25
 	 */
 	public static $import_field_list = [
@@ -999,7 +999,7 @@ class User extends Common
 	/**
      * [getUserThree 员工第三方扩展信息]
      * @param  key 分类
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return    [array]
      */	
     public function getUserThree($key, $user_id)
@@ -1013,7 +1013,7 @@ class User extends Common
 	 *
 	 * @param string $key	默认返回所有信息
 	 * @return mixed
-	 * @author Ymob
+	 * @author Jerry_yan
 	 * @datetime 2019-10-22 14:38:07
 	 */
 	public static function userInfo($key = '')
@@ -1043,7 +1043,7 @@ class User extends Common
 	 * @param array $group_list
 	 * @param integer $user_id
 	 * @return bool
-	 * @author Ymob
+	 * @author Jerry_yan
 	 * @datetime 2019-10-25 15:50:48
 	 */
 	public static function checkUserGroup($group_list = [], $user_id = 0)

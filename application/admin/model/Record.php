@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 跟进记录
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\admin\model;
 
@@ -25,7 +25,7 @@ class Record extends Common
 
 	/**
      * [getDataList 跟进记录list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -362,7 +362,7 @@ class Record extends Common
 
 	/**
 	 * 创建跟进记录信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -541,7 +541,7 @@ class Record extends Common
      * @param string $types 关联类型
      * @param array $types_id_list 类型ID
      * @return array
-     * @author Ymob
+     * @author Jerry_yan
      * @datetime 2019-12-11 10:43:04
      */
     public static function getLastRecord($types, $types_id_list)
