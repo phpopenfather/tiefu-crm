@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 客户
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\bi\model;
 
@@ -21,7 +21,7 @@ class Receivables extends Common
 
 	/**
      * [getDataList 根据回款金额排序]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */     

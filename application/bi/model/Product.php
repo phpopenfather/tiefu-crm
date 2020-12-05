@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 产品
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\bi\model;
 
@@ -24,7 +24,7 @@ class Product extends Common
 
 	/**
      * [产品分类销量分析]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $request [查询条件]
      * @return    [array]                    
      */		

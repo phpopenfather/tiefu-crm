@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商业智能-审核统计
 // +----------------------------------------------------------------------
-// | Author: zhi | zhijunfu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\bi\controller;
@@ -131,7 +131,7 @@ class Examine extends ApiCommon
 
     /**
      * 统计导出
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */

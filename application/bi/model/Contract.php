@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 合同
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\bi\model;
 
@@ -21,7 +21,7 @@ class Contract extends Common
 
 	/**
      * [getDataList 合同金额]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */		
 	function getWhereByMoney($whereArr)
@@ -31,7 +31,7 @@ class Contract extends Common
 
     /**
      * [getSortByMoney 根据合同金额排序]
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -42,7 +42,7 @@ class Contract extends Common
 
     /**
      * [getDataList 根据合同签约数排序]
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */     
@@ -54,7 +54,7 @@ class Contract extends Common
 
     /**
      * 获取合同数量
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -65,7 +65,7 @@ class Contract extends Common
     
     /**
      * 获取合同金额
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */

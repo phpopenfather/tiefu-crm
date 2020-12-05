@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商业智能-产品分析
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\bi\controller;
@@ -39,7 +39,7 @@ class Product extends ApiCommon
   
     /**
      * 产品销量统计
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */

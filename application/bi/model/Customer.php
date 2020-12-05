@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 客户
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\bi\model;
 
@@ -21,7 +21,7 @@ class Customer extends Common
 
     /**
      * 获取转化客户信息 
-     * @author zhi
+     * @author Jerry_yan
      * @param $whereArr 
      * @return
      */
@@ -106,7 +106,7 @@ class Customer extends Common
 
 	/**
 	 * 根据条件获取开始、结束时间
-     * @author zhi
+     * @author Jerry_yan
 	 * @param   $type 
 	 * @param   $year 
 	 * @param   $i    
@@ -183,7 +183,7 @@ class Customer extends Common
     
     /**
      * 根据条件获取单位
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -256,7 +256,7 @@ class Customer extends Common
 
     /**
      * 根据数据获取查询条件
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -296,7 +296,7 @@ class Customer extends Common
 
     /**
      * 根据自定义字段获取 下拉框数据
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -308,7 +308,7 @@ class Customer extends Common
 
     /**
      * 根据新增客户数排序
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -321,7 +321,7 @@ class Customer extends Common
 
     /**
      * 获取成交周期
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -360,7 +360,7 @@ class Customer extends Common
 
     /**
      * 根据时间获取该时间所在月份开始结束时间
-     * @author zhi
+     * @author Jerry_yan
      * @param     
      * @return        
      */ 

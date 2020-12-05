@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 日志统计
 // +----------------------------------------------------------------------
-// | Author:  zhi | zhijunfu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\bi\model;
 
@@ -22,7 +22,7 @@ class Log extends Common
 
     /**
      * [getDataList 日志统计]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */

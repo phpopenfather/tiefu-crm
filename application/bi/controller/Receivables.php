@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商业智能-回款分析
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\bi\controller;
@@ -48,7 +48,7 @@ class Receivables extends ApiCommon
 
     /**
      * 回款统计 柱状图
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param year 年份 , month 月份
      * @return
      */

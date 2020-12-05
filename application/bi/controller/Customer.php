@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商业智能-客户分析
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\bi\controller;
@@ -42,7 +42,7 @@ class Customer extends ApiCommon
 
     /**
      * 员工客户分析
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -62,7 +62,7 @@ class Customer extends ApiCommon
 
     /**
      * 员工客户总量分析
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -104,7 +104,7 @@ class Customer extends ApiCommon
 
     /**
      * 员工客户跟进次数分析
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -150,7 +150,7 @@ class Customer extends ApiCommon
 
     /**
      * 员工客户跟进次数分析 具体员工列表
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -202,7 +202,7 @@ class Customer extends ApiCommon
 
     /**
      * 员工跟进方式分析
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -255,7 +255,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户转化率分析
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -296,7 +296,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户转化率分析具体数据
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -314,7 +314,7 @@ class Customer extends ApiCommon
 
     /**
      * 公海客户分析
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -360,7 +360,7 @@ class Customer extends ApiCommon
 
     /**
      * 公海客户分析 具体列表
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -424,7 +424,7 @@ class Customer extends ApiCommon
 
     /**
      * 员工客户成交周期 
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -543,7 +543,7 @@ class Customer extends ApiCommon
 
     /**
      * 产品成交周期
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -571,7 +571,7 @@ class Customer extends ApiCommon
 
     /**
      * 地区成交周期
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -648,7 +648,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户所在城市分析
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -700,7 +700,7 @@ class Customer extends ApiCommon
     
     /**
      * 客户行业/级别/来源分析
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */

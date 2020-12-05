@@ -11,7 +11,8 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://ymob.com/72crm-dev/index.php/',
+        // target: 'http://ymob.com/72crm-dev/index.php/',
+        target: 'http://tiefucrm.com/index.php/',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''

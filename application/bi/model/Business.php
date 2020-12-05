@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商机
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\bi\model;
 
@@ -20,7 +20,7 @@ class Business extends Common
 
 	/**
      * [getDataCount 商机count]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */		
@@ -34,7 +34,7 @@ class Business extends Common
 
     /**
      * [getDataMoney 商机金额]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */		
@@ -47,7 +47,7 @@ class Business extends Common
 
     /**
      * 获取商机list
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */

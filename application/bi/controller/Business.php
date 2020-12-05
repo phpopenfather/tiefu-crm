@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商业智能-商机分析
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\bi\controller;
@@ -39,7 +39,7 @@ class Business extends ApiCommon
   
     /**
      * 销售漏斗
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -123,7 +123,7 @@ class Business extends ApiCommon
     
      /**
      * 赢单机会转化率趋势分析
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */

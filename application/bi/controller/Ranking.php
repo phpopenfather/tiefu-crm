@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商业智能-排行榜
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\bi\controller;
@@ -42,7 +42,7 @@ class Ranking extends ApiCommon
 
     /**
      * 合同金额排行
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -246,7 +246,7 @@ class Ranking extends ApiCommon
      * @param model $model
      * @param array $whereArr
      * @return void
-     * @author Ymob
+     * @author Jerry_yan
      * @datetime 2019-11-25 11:11:59
      */
     private function handel($model, $whereArr, $field, $user_field = 'owner_user_id')

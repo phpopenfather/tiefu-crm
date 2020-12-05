@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 客户跟进
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\bi\model;
 
@@ -20,7 +20,7 @@ class Record extends Common
 
     /**
      * [跟进统计]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return                  
      */ 
@@ -61,7 +61,7 @@ class Record extends Common
 
     /**
      * 根据条件获取跟进客户数
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -72,7 +72,7 @@ class Record extends Common
 
     /**
      * [根据条件获取跟进次数]
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */ 
@@ -83,7 +83,7 @@ class Record extends Common
 
     /**
      * 跟进次数排行
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -95,7 +95,7 @@ class Record extends Common
 
     /**
      * 跟进客户排行
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return
      */

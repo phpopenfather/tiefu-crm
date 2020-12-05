@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 审批统计
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\bi\model;
 
@@ -26,7 +26,7 @@ class Examine extends Common
 
     /**
      * [getSortByExamine 排序]
-     * @author zhi
+     * @author Jerry_yan
      * @param 
      * @return 
      */     
@@ -42,7 +42,7 @@ class Examine extends Common
 
     /**
      * [getStatistics 审批统计]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return 
      */
