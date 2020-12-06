@@ -207,7 +207,7 @@ function where_arr($array = [], $m = '', $c = '', $a = '')
             } else {
                 $where[$c.$k] = $v;
             }
-        }
+        } 
     }    
     return $where ? : [];
 }
