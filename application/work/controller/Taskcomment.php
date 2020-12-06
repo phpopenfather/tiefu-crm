@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 任务评论及基础
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\controller;
@@ -35,7 +35,7 @@ class Taskcomment extends ApiCommon
 
     /**
      * 添加评论
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function save()
@@ -59,7 +59,7 @@ class Taskcomment extends ApiCommon
 
     /**
      * 删除评论
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */ 
     public function delete()

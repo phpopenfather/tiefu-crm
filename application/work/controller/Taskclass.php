@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 任务列表
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author:  Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\work\controller;
@@ -36,7 +36,7 @@ class taskclass extends ApiCommon
 
     /**
      * 添加任务列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */ 
     public function save()
@@ -62,7 +62,7 @@ class taskclass extends ApiCommon
 
     /**
      * 重命名任务列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function rename()
@@ -89,7 +89,7 @@ class taskclass extends ApiCommon
 
     /**
      * 删除任务列表(该分类下任务标记删除)
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function delete()

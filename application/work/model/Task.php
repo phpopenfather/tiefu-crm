@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 任务
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\model;
@@ -35,7 +35,7 @@ class Task extends Common
 
 	/**
      * 项目下任务列表(看板视图)
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */ 
 	public function getDataList($request, $user_id)
@@ -141,7 +141,7 @@ class Task extends Common
 
 	/**
      * 根据任务ID 获取操作记录
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
 	public function getTaskLogList($param)
@@ -160,7 +160,7 @@ class Task extends Common
 
 	/**
      * 根据主键获取详情
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */	
 	public function getDataById($id = '', $userInfo)
@@ -229,7 +229,7 @@ class Task extends Common
 
 	/**
      * 创建任务
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */	
 	public function createTask($param)
@@ -286,7 +286,7 @@ class Task extends Common
 	
 	/**
      * 编辑任务
-     * @author yykun
+     * @author Jerry_yan
      * @param type 类型(字段名)
      * @return
      */	
@@ -451,7 +451,7 @@ class Task extends Common
 
 	/**
      * 任务统计不同状态
-     * @author yykun
+     * @author Jerry_yan
      * @param 
      * @return
      */	
@@ -467,7 +467,7 @@ class Task extends Common
 
 	/**
      * 获取某一月份任务列表
-     * @author yykun
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -496,7 +496,7 @@ class Task extends Common
 
 	/**
      * 删除任务
-     * @author yykun
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -528,7 +528,7 @@ class Task extends Common
 
 	/**
      * 归档任务
-     * @author yykun
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -549,7 +549,7 @@ class Task extends Common
 
 	/**
      * 归档任务恢复
-     * @author yykun
+     * @author Jerry_yan
      * @param 
      * @return
      */	
@@ -568,7 +568,7 @@ class Task extends Common
 
 	/**
      * 任务权限判断
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -604,7 +604,7 @@ class Task extends Common
 
 	/**
      * 查看关联个数
-     * @author yykun
+     * @author Jerry_yan
      * @param 
      * @return
      */	
@@ -624,7 +624,7 @@ class Task extends Common
 
 	/**
      * 任务列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */	

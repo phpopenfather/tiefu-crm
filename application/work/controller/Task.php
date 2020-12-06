@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 任务及基础
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\controller;
@@ -48,7 +48,7 @@ class Task extends ApiCommon
 
     /**
      * 项目下任务列表
-     * @author yykun
+     * @author Jerry_yan
      * @return 
      */ 
     public function index()
@@ -65,7 +65,7 @@ class Task extends ApiCommon
 
     /**
      * 我的任务
-     * @author yykun
+     * @author Jerry_yan
      * @return 
      */
     public function myTask()
@@ -98,7 +98,7 @@ class Task extends ApiCommon
 
     /**
      * 我的任务 拖拽改变分类
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function updateTop()
@@ -133,7 +133,7 @@ class Task extends ApiCommon
 
     /**
      * 项目 拖拽改变分类并排序
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function updateOrder()
@@ -162,7 +162,7 @@ class Task extends ApiCommon
 
     /**
      * 项目下 拖拽整个分类排序
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
 	public function updateClassOrder()
@@ -181,7 +181,7 @@ class Task extends ApiCommon
 
     /**
      * 任务详情
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function read()
@@ -202,7 +202,7 @@ class Task extends ApiCommon
 
     /**
      * 任务编辑
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function update()
@@ -224,7 +224,7 @@ class Task extends ApiCommon
     
     /**
      * 任务操作记录
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */ 
     public function readLoglist()
@@ -238,7 +238,7 @@ class Task extends ApiCommon
  
     /**
      * 优先级设置
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function updatePriority()
@@ -259,7 +259,7 @@ class Task extends ApiCommon
  
     /**
      * 参与人/参与部门编辑 
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function updateOwner()
@@ -313,7 +313,7 @@ class Task extends ApiCommon
 
     /**
      * 单独删除参与人
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function delOwnerById()
@@ -336,7 +336,7 @@ class Task extends ApiCommon
 
     /**
      * 单独删除参与部门
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function delStruceureById()
@@ -359,7 +359,7 @@ class Task extends ApiCommon
 
     /**
      * 设置任务截止时间
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function updateStoptime()
@@ -380,7 +380,7 @@ class Task extends ApiCommon
 
     /**
      * 修改任务标签
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function updateLable()
@@ -410,7 +410,7 @@ class Task extends ApiCommon
 
     /**
      * 修改任务名称
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function updateName()
@@ -432,7 +432,7 @@ class Task extends ApiCommon
 
     /**
      * 任务标记结束
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function taskOver()
@@ -494,7 +494,7 @@ class Task extends ApiCommon
 
     /**
      * 日历任务展示/月份
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function dateList() 
@@ -509,7 +509,7 @@ class Task extends ApiCommon
 
     /**
      * 添加任务
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */
     public function save()
@@ -538,7 +538,7 @@ class Task extends ApiCommon
 
     /**
      * 删除主负责人
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function delMainUserId()
@@ -565,7 +565,7 @@ class Task extends ApiCommon
 
     /**
      * 重命名任务
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function rename()
@@ -587,7 +587,7 @@ class Task extends ApiCommon
 	
     /**
      * 删除任务
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function delete()
@@ -609,7 +609,7 @@ class Task extends ApiCommon
 
     /**
      * 归档任务
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function archive()
@@ -636,7 +636,7 @@ class Task extends ApiCommon
 
     /**
      * 恢复归档任务
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function recover()
@@ -663,7 +663,7 @@ class Task extends ApiCommon
 
     /**
      * 归档任务列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function archList()
@@ -681,7 +681,7 @@ class Task extends ApiCommon
 
     /**
      * 归档某一类已完成任务
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function archiveTask()

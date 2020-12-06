@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 项目操作日志
 // +----------------------------------------------------------------------
-// | Author:  
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\model;
@@ -75,7 +75,7 @@ class WorkLog extends Common
 
 	/**
      * 添加新任务
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -96,7 +96,7 @@ class WorkLog extends Common
 
 	/**
      * 任务模块修改添加日志
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	

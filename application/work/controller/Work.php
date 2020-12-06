@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 项目控制器
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\controller;
@@ -37,7 +37,7 @@ class work extends ApiCommon
 
     /**
      * 添加新项目
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function save()
@@ -64,7 +64,7 @@ class work extends ApiCommon
 	
     /**
      * 编辑项目
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function update()
@@ -91,7 +91,7 @@ class work extends ApiCommon
 
     /**
      * 项目详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */
     public function read()
@@ -125,7 +125,7 @@ class work extends ApiCommon
 	
     /**
      * 删除项目
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */ 
     public function delete()
@@ -151,7 +151,7 @@ class work extends ApiCommon
 
     /**
      * 归档项目
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function archive()
@@ -178,7 +178,7 @@ class work extends ApiCommon
 
     /**
      * 参与人添加
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function ownerAdd()
@@ -206,7 +206,7 @@ class work extends ApiCommon
 
     /**
      * 参与人删除
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function ownerDel()
@@ -232,7 +232,7 @@ class work extends ApiCommon
 
     /**
      * 参与人列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function ownerList()
@@ -245,7 +245,7 @@ class work extends ApiCommon
 
     /**
      * 退出项目
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function leave()
@@ -266,7 +266,7 @@ class work extends ApiCommon
 
     /**
      * 归档项目列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function archiveList()
@@ -281,7 +281,7 @@ class work extends ApiCommon
 
     /**
      * 恢复归档项目
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function arRecover()
@@ -307,7 +307,7 @@ class work extends ApiCommon
 
     /**
      * 项目任务统计
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */
     public function statistic()
@@ -439,7 +439,7 @@ class work extends ApiCommon
 
     /**
      * 参与人角色添加
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */ 
 	public function addUserGroup()
@@ -508,7 +508,7 @@ class work extends ApiCommon
 
     /**
      * 项目角色列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */ 
     public function groupList()

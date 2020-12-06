@@ -6,7 +6,7 @@ use think\Db;
 
 /**
  * 判断操作权限
- * @author Michael_xu 
+ * @author Jerry_yan 
  * @param  
  * @return       
  */    

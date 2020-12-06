@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 工作台及基础
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\controller;
@@ -39,7 +39,7 @@ class Index extends ApiCommon
 
     /**
      * 左侧导航栏项目展示
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function workList()
@@ -55,7 +55,7 @@ class Index extends ApiCommon
     
     /**
      * 看板试图
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()

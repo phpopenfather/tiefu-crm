@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 项目回收站
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\controller;
@@ -37,7 +37,7 @@ class Trash extends ApiCommon
 
     /**
      * 回收站列表 
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function index()
@@ -58,7 +58,7 @@ class Trash extends ApiCommon
 
     /**
      * 回收站删除
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function delete()
@@ -77,7 +77,7 @@ class Trash extends ApiCommon
 
     /**
      * 恢复任务
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function recover()

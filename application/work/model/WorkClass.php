@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 项目下任务分类模型
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\model;
@@ -50,7 +50,7 @@ class WorkClass extends Model
 	
 	/**
      * 创建
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -78,7 +78,7 @@ class WorkClass extends Model
 
 	/**
      * 重命名
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -95,7 +95,7 @@ class WorkClass extends Model
 
 	/**
      * 删除分类 该分类下所有任务删除
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */

@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 任务标签及基础
 // +----------------------------------------------------------------------
-// | Author:  	yykun
+// | Author:  	Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\controller;
@@ -37,7 +37,7 @@ class Tasklable extends ApiCommon
 
     /**
      * 添加新标签
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function save()
@@ -56,7 +56,7 @@ class Tasklable extends ApiCommon
 	
     /**
      * 标签列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function index()
@@ -68,7 +68,7 @@ class Tasklable extends ApiCommon
 
     /**
      * 根据标签获取项目及任务
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function getWokList()
@@ -107,7 +107,7 @@ class Tasklable extends ApiCommon
 
     /**
      * 分组列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function groupList()
@@ -130,7 +130,7 @@ class Tasklable extends ApiCommon
 
     /**
      * 编辑标签
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function update()
@@ -152,7 +152,7 @@ class Tasklable extends ApiCommon
 
     /**
      * 删除标签
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function delete()
@@ -174,7 +174,7 @@ class Tasklable extends ApiCommon
 
     /**
      * 标签详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */        
     public function read()

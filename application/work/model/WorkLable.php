@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 任务标签
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan
 // +----------------------------------------------------------------------
 
 namespace app\work\model;
@@ -47,7 +47,7 @@ class WorkLable extends Common
 	
 	/**
      * 创建标签
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -72,7 +72,7 @@ class WorkLable extends Common
 
 	/**
      * 编辑标签
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */
@@ -91,7 +91,7 @@ class WorkLable extends Common
 
 	/**
      * 删除标签
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */
@@ -118,7 +118,7 @@ class WorkLable extends Common
 	
 	/**
      * 任务标签
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */
@@ -131,7 +131,7 @@ class WorkLable extends Common
 
 	/**
      * 任务标签名称
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */

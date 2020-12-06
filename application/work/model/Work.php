@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 项目管理
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author:  Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\work\model;
@@ -28,7 +28,7 @@ class Work extends Common
 
 	/**
      * 列表
-     * @author yykun
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -40,7 +40,7 @@ class Work extends Common
 
 	/**
      * 创建项目
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */
@@ -78,7 +78,7 @@ class Work extends Common
 
 	/**
      * 编辑项目
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -112,7 +112,7 @@ class Work extends Common
 
 	/**
      * 删除项目
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */
@@ -138,7 +138,7 @@ class Work extends Common
 
 	/**
      * 归档项目
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -161,7 +161,7 @@ class Work extends Common
 
 	/**
      * 归档项目列表
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -177,7 +177,7 @@ class Work extends Common
 
 	/**
      * 归档恢复
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -197,7 +197,7 @@ class Work extends Common
 
 	/**
      * 退出项目
-     * @author yykun
+     * @author Jerry_yan
      * @param 项目id,会员ID
      * @return
      */
@@ -232,7 +232,7 @@ class Work extends Common
 
 	/**
      * 添加项目成员
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -276,7 +276,7 @@ class Work extends Common
 
 	/**
      * 删除项目成员
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -308,7 +308,7 @@ class Work extends Common
 	
 	/**
      * 项目成员列表
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	
@@ -343,7 +343,7 @@ class Work extends Common
 
 	/**
      * 项目权限判断(成员)
-     * @author yykun
+     * @author Jerry_yan
      * @param
      * @return
      */	 
@@ -382,7 +382,7 @@ class Work extends Common
 
 	/**
      * 判断项目操作权限
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
 	public function isCheck($m, $c, $a, $work_id, $user_id)
@@ -420,7 +420,7 @@ class Work extends Common
 
 	/**
      * 获取项目权限范围
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */	
     public function getWorkWhere($param)
@@ -446,7 +446,7 @@ class Work extends Common
 
 	/**
      * 获取项目下权限信息
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */    
     public function authList($param)
@@ -494,7 +494,7 @@ class Work extends Common
 
 	/**
      * 任务列表统计
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */    
     public function classList($work_id)
@@ -527,7 +527,7 @@ class Work extends Common
 
 	/**
      * 任务标签统计
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */    
     public function labelList($work_id,$labelIds = array())
