@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 回款
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -38,7 +38,7 @@ class Receivables extends ApiCommon
 
     /**
      * 回款列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -53,7 +53,7 @@ class Receivables extends ApiCommon
 
     /**
      * 添加回款
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -111,7 +111,7 @@ class Receivables extends ApiCommon
 
     /**
      * 回款详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return 
      */
@@ -136,7 +136,7 @@ class Receivables extends ApiCommon
 
     /**
      * 编辑回款
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -208,7 +208,7 @@ class Receivables extends ApiCommon
 
     /**
      * 删除回款
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -266,7 +266,7 @@ class Receivables extends ApiCommon
 	
     /**
      * 回款审核
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */  
@@ -389,7 +389,7 @@ class Receivables extends ApiCommon
 
     /**
      * 回款撤销审核
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */  

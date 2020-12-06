@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 业绩目标设置及完成情况统计
 // +----------------------------------------------------------------------
-// | Author: yykun  
+// | Author: Jerry_yan  
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -43,7 +43,7 @@ class Achievement extends ApiCommon
 
     /**
      * 业绩目标列表
-     * @author yykun
+     * @author Jerry_yan
      * @return
      */
     public function index()
@@ -65,7 +65,7 @@ class Achievement extends ApiCommon
 
     /**
      * 添加
-     * @author yykun
+     * @author Jerry_yan
      * @param  
      * @return
      */
@@ -83,7 +83,7 @@ class Achievement extends ApiCommon
 
     /**
      * 详情
-     * @author yykun
+     * @author Jerry_yan
      * @param  
      * @return
      */
@@ -101,7 +101,7 @@ class Achievement extends ApiCommon
 
     /**
      * 编辑信息
-     * @author yykun
+     * @author Jerry_yan
      * @param 
      * @return
      */

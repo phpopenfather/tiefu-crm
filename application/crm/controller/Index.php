@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: CRM工作台
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -56,7 +56,7 @@ class Index extends ApiCommon
 
     /**
      * CRM工作台（销售简报）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -152,7 +152,7 @@ class Index extends ApiCommon
 
     /**
      * 业绩指标
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -243,7 +243,7 @@ class Index extends ApiCommon
 
     /**
      * 销售漏斗
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -323,7 +323,7 @@ class Index extends ApiCommon
 
     /**
      * 回款计划提醒
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param day 最近7天 15天...
      * @return 
      */
@@ -348,7 +348,7 @@ class Index extends ApiCommon
 
     /**
      * 待跟进客户
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param day 最近3天 7天...
      * @return 
      */
@@ -368,7 +368,7 @@ class Index extends ApiCommon
 
     /**
      * 客户名称、联系人姓名、联系人手机号查询
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -497,7 +497,7 @@ class Index extends ApiCommon
 
     /**
      * CRM工作台跳转（销售简报）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -596,7 +596,7 @@ class Index extends ApiCommon
 
     /**
      * 跟进记录（销售简报）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */    

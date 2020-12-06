@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 产品
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -30,7 +30,7 @@ class Product extends Common
 
 	/**
      * [getDataList 产品list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -125,7 +125,7 @@ class Product extends Common
 
 	/**
 	 * 创建产品主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -168,7 +168,7 @@ class Product extends Common
 
 	/**
 	 * 编辑产品主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -314,7 +314,7 @@ class Product extends Common
 
 	/**
      * [产品统计]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $request [查询条件]
      * @return    [array]                    
      */		
@@ -370,7 +370,7 @@ class Product extends Common
 
 	/**
      * [根据产品类别ID，查询父级ID]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return                   
      */		
@@ -394,7 +394,7 @@ class Product extends Common
 	 * @overwrite   重写 traits\model\SoftDelete\delete
 	 * @param boolean $force	是否强制删除
      * @return integer
-	 * @author Ymob
+	 * @author Jerry_yan
 	 * @datetime 2019-10-24 15:02:22
 	 */
     public function delete($force = false)

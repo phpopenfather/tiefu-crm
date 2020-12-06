@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: CRM相关设置
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -20,7 +20,7 @@ class Setting extends Common
     
 	/**
      * 团队成员
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param types 类型
 	 * @param types_id 类型ID数组
 	 * @param type  权限 1只读2读写

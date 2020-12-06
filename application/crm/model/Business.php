@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商机
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -205,7 +205,7 @@ class Business extends Common
 
 	/**
 	 * 创建商机主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -264,7 +264,7 @@ class Business extends Common
 
 	/**
 	 * 编辑商机主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -358,7 +358,7 @@ class Business extends Common
 	
 	/**
      * [商机漏斗]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return                   
      */		
@@ -419,7 +419,7 @@ class Business extends Common
 
 	/**
      * [商机转移]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param ids 商机ID数组
      * @param owner_user_id 变更负责人
      * @param is_remove 1移出，2转为团队成员

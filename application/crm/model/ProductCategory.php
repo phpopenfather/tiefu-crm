@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 产品类别
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -24,7 +24,7 @@ class ProductCategory extends Common
 
 	/**
      * [getDataList 产品分类list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -44,7 +44,7 @@ class ProductCategory extends Common
 
 	/**
 	 * 创建产品分类信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -69,7 +69,7 @@ class ProductCategory extends Common
 
 	/**
 	 * 编辑产品分类主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -148,7 +148,7 @@ class ProductCategory extends Common
 
 	/**
 	 * 产品分类id
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

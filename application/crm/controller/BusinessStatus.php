@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商机组设置
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -43,7 +43,7 @@ class BusinessStatus extends ApiCommon
 
     /**
      * 商机组列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function type()
@@ -56,7 +56,7 @@ class BusinessStatus extends ApiCommon
 
     /**
      * 添加商机组
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -79,7 +79,7 @@ class BusinessStatus extends ApiCommon
 
     /**
      * 商机组详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return 
      */
@@ -96,7 +96,7 @@ class BusinessStatus extends ApiCommon
 
     /**
      * 编辑商机组
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -118,7 +118,7 @@ class BusinessStatus extends ApiCommon
 
     /**
      * 商机组（停用）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param status 1启用, 0停用
      * @return 
      */
@@ -139,7 +139,7 @@ class BusinessStatus extends ApiCommon
 
     /**
      * 删除商机组
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param status 1启用, 0停用
      * @return 
      */

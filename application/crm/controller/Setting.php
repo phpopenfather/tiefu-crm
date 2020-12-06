@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 客户模块设置
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -36,7 +36,7 @@ class Setting extends ApiCommon
 
     /**
      * 客户相关配置
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function config()
@@ -61,7 +61,7 @@ class Setting extends ApiCommon
 
     /**
      * 客户相关配置(详情)
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function configData()
@@ -73,7 +73,7 @@ class Setting extends ApiCommon
 
     /**
      * 相关团队列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param type 1负责人，2只读，3读写
      * @return 
      */
@@ -131,7 +131,7 @@ class Setting extends ApiCommon
 
     /**
      * 相关团队创建
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param type 1负责人，2只读，3读写
      * @param user_id 协作人
      * @param types 类型
@@ -226,7 +226,7 @@ class Setting extends ApiCommon
 
     /**
      * 合同到期提醒天数
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -248,7 +248,7 @@ class Setting extends ApiCommon
 
     /**
      * 记录类型编辑
-     * @author zhi
+     * @author Jerry_yan
      * @return
      */
     public function recordEdit()
@@ -285,7 +285,7 @@ class Setting extends ApiCommon
    
     /**
      * 跟进记录 记录方式展示
-     * @author zhi
+     * @author Jerry_yan
      * @return 
      */
     public function recordList()
@@ -301,7 +301,7 @@ class Setting extends ApiCommon
 
     /**
      * 拥有、锁定客户数限制列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param types 1拥有客户上限2锁定客户上限
      * @return 
      */
@@ -316,7 +316,7 @@ class Setting extends ApiCommon
 
     /**
      * 拥有、锁定客户数限制 创建
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function customerConfigSave()
@@ -337,7 +337,7 @@ class Setting extends ApiCommon
 
     /**
      * 拥有、锁定客户数限制 编辑
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function customerConfigUpdate()
@@ -358,7 +358,7 @@ class Setting extends ApiCommon
 
     /**
      * 拥有、锁定客户数限制 删除
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function customerConfigDel()

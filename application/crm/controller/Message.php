@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 消息模块
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -35,7 +35,7 @@ class Message extends ApiCommon
 
     /**
      * 系统通知
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -51,7 +51,7 @@ class Message extends ApiCommon
 
     /**
      * 消息数
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function num()
@@ -86,7 +86,7 @@ class Message extends ApiCommon
 
     /**
      * 今日需联系客户
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function todayCustomer($getCount = '')
@@ -132,7 +132,7 @@ class Message extends ApiCommon
 
     /**
      * 待跟进线索
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function followLeads()
@@ -164,7 +164,7 @@ class Message extends ApiCommon
 
     /**
      * 待跟进客户
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function followCustomer($getCount = '')
@@ -199,7 +199,7 @@ class Message extends ApiCommon
 
     /**
      * 待审核合同
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function checkContract()
@@ -237,7 +237,7 @@ class Message extends ApiCommon
 
     /**
      * 待审核回款
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function checkReceivables()
@@ -275,7 +275,7 @@ class Message extends ApiCommon
 
     /**
      * 待回款提醒
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function remindReceivablesPlan()
@@ -316,7 +316,7 @@ class Message extends ApiCommon
 
     /**
      * 即将到期合同
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function endContract()
@@ -351,7 +351,7 @@ class Message extends ApiCommon
 
     /**
      * 待进入客户池（默认5天）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function remindCustomer($getCount = '')

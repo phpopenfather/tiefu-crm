@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 客户
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -263,7 +263,7 @@ class Customer extends Common
 
 	/**
 	 * 创建客户主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -331,7 +331,7 @@ class Customer extends Common
 	
 	/**
 	 * 编辑客户主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -441,7 +441,7 @@ class Customer extends Common
 
 	/**
      * [客户统计]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return                  
      */		
@@ -531,7 +531,7 @@ class Customer extends Common
 
 	/**
      * [客户数量]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return                   
      */		
@@ -547,7 +547,7 @@ class Customer extends Common
 
 	/**
      * [客户默认条件]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return                   
      */	
@@ -586,7 +586,7 @@ class Customer extends Common
 
 	/**
      * [客户公海条件]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return                   
      */	
@@ -636,7 +636,7 @@ class Customer extends Common
 
 	/**
      * 客户权限判断(是否客户公海)
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param type 1 是公海返回false,默认是公海返回true
      * @return
      */       
@@ -663,7 +663,7 @@ class Customer extends Common
 
 	/**
      * 客户到期天数
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */     
@@ -708,7 +708,7 @@ class Customer extends Common
 
 	/**
      * [待进入客户池条件]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return                   
      */	
@@ -767,7 +767,7 @@ class Customer extends Common
 
 	/**
      * [今日进入客户池条件]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return                   
      */	
@@ -829,7 +829,7 @@ class Customer extends Common
 
 	/**
      * [客户拥有、锁定数]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param is_deal 1包含成交客户
      * @param types 1拥有客户上限2锁定客户上限 
      * @return                   
@@ -913,7 +913,7 @@ class Customer extends Common
 
 	/**
      * [客户成交新增数量]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return                   
      */		
@@ -951,7 +951,7 @@ class Customer extends Common
 
 	/**
      * [客户统计sql]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return                   
      */		

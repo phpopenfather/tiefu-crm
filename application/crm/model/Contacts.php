@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 联系人
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -24,7 +24,7 @@ class Contacts extends Common
 
 	/**
      * [getDataList 联系人list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -177,7 +177,7 @@ class Contacts extends Common
 
 	/**
 	 * 创建联系人主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -221,7 +221,7 @@ class Contacts extends Common
 	
 	/**
 	 * 编辑联系人主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -297,7 +297,7 @@ class Contacts extends Common
 
 	/**
      * [联系人转移]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param ids 联系人ID数组
      * @param owner_user_id 变更负责人
      * @param is_remove 1移出，2转为团队成员

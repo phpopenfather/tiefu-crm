@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 回款
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -27,7 +27,7 @@ class Receivables extends Common
 
 	/**
      * [getDataList 回款list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -163,7 +163,7 @@ class Receivables extends Common
 
 	/**
 	 * 创建回款信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -254,7 +254,7 @@ class Receivables extends Common
 
 	/**
 	 * 编辑回款主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -450,7 +450,7 @@ class Receivables extends Common
 	
 	/**
      * [回款统计] 柱状图
-     * @author Michael_xu
+     * @author Jerry_yan
 	 * @param request [查询条件]
 	 * @param 
      * @return    [array]                    
@@ -510,7 +510,7 @@ class Receivables extends Common
 
 	/**
      * [合同回款金额]
-     * @author Michael_xu
+     * @author Jerry_yan
 	 * @param contract_id 合同ID
 	 * @param 
      * @return                    

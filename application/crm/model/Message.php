@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 站内信
 // +----------------------------------------------------------------------
-// | Author:  ymob
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -30,7 +30,7 @@ class Message extends Common
      * 消息类型
      *
      * @var array
-     * @author Ymob
+     * @author Jerry_yan
      * @datetime 2019-10-17 15:27:43
      */
     protected $type = [
@@ -113,7 +113,7 @@ class Message extends Common
      * @param int       $action_id  关联模块ID
      * @param boolean   $system     是否系统消息
      * @return bool
-     * @author Ymob
+     * @author Jerry_yan
      * @datetime 2019-10-17 17:23:05
      */
     public function sendMessage($user_id, $type, $action_id, $system = false)
@@ -137,7 +137,7 @@ class Message extends Common
      * @param [type] $type
      * @param [type] $data
      * @return void
-     * @author Ymob
+     * @author Jerry_yan
      * @datetime 2019-10-17 18:07:01
      */
     public function setMessage($type, $data)

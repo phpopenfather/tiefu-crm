@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 产品
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -37,7 +37,7 @@ class Product extends ApiCommon
 
     /**
      * 产品列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */
     public function index()
@@ -52,7 +52,7 @@ class Product extends ApiCommon
 
     /**
      * 添加产品
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return
      */
@@ -73,7 +73,7 @@ class Product extends ApiCommon
 
     /**
      * 产品详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return
      */
@@ -90,7 +90,7 @@ class Product extends ApiCommon
 
     /**
      * 编辑产品
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -110,7 +110,7 @@ class Product extends ApiCommon
 
     /**
      * 产品上架、下架
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */     
@@ -138,7 +138,7 @@ class Product extends ApiCommon
 
     /**
      * 产品导入模板
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param string $save_path 本地保存路径     用于错误数据导出，在 Admin\Model\Excel::batchImportData()调用
      * @return
      */ 
@@ -158,7 +158,7 @@ class Product extends ApiCommon
 
     /**
      * 产品导出
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -195,7 +195,7 @@ class Product extends ApiCommon
 
     /**
      * 产品数据导入
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -220,7 +220,7 @@ class Product extends ApiCommon
      * 删除
      *
      * @return void
-     * @author Ymob
+     * @author Jerry_yan
      * @datetime 2019-10-24 13:44:31
      */
     public function delete()

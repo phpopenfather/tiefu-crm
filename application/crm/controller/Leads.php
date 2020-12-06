@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 线索
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -39,7 +39,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -54,7 +54,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索公海
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function pool()
@@ -71,7 +71,7 @@ class Leads extends ApiCommon
 
     /**
      * 添加线索
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  \think\Request  $request
      * @return 
      */
@@ -92,7 +92,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return 
      */
@@ -116,7 +116,7 @@ class Leads extends ApiCommon
 
     /**
      * 编辑线索
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -142,7 +142,7 @@ class Leads extends ApiCommon
 
     /**
      * 删除线索
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -202,7 +202,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索转化为客户
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param
      * @return
      */
@@ -261,7 +261,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索转移
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param owner_user_id 变更负责人
      * @param is_remove 1移出，2转为团队成员
      * @param type 权限 1只读2读写
@@ -321,7 +321,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索导入模板
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param string $save_path 本地保存路径     用于错误数据导出，在 Admin\Model\Excel::importExcel()调用
      * @return
      */ 
@@ -342,7 +342,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索导出
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -380,7 +380,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索数据导入
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -403,7 +403,7 @@ class Leads extends ApiCommon
 
     /**
      * 线索标记为已跟进
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */

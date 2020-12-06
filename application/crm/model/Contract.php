@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 合同
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -26,7 +26,7 @@ class Contract extends Common
 
 	/**
      * [getDataList 合同list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -215,7 +215,7 @@ class Contract extends Common
 	
 	/**
 	 * 创建合同信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -273,7 +273,7 @@ class Contract extends Common
 
 	/**
 	 * 编辑合同主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -358,7 +358,7 @@ class Contract extends Common
 
 	/**
      * [合同转移]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param ids 合同ID数组
      * @param owner_user_id 变更负责人
      * @param is_remove 1移出，2转为团队成员

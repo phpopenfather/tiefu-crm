@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 回款计划计划
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -25,7 +25,7 @@ class ReceivablesPlan extends Common
 
 	/**
      * [getDataList 回款计划list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -121,7 +121,7 @@ class ReceivablesPlan extends Common
 
 	/**
 	 * 创建回款计划信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -165,7 +165,7 @@ class ReceivablesPlan extends Common
 
 	/**
 	 * 编辑回款计划
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商机
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -36,7 +36,7 @@ class Business extends ApiCommon
 
     /**
      * 商机列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */
     public function index()
@@ -51,7 +51,7 @@ class Business extends ApiCommon
 
     /**
      * 添加商机
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -72,7 +72,7 @@ class Business extends ApiCommon
 
     /**
      * 商机详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return
      */
@@ -107,7 +107,7 @@ class Business extends ApiCommon
 
     /**
      * 编辑商机
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -136,7 +136,7 @@ class Business extends ApiCommon
 
     /**
      * 删除商机（逻辑删）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -196,7 +196,7 @@ class Business extends ApiCommon
 
     /**
      * 符合条件的商机状态组
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -223,7 +223,7 @@ class Business extends ApiCommon
     
     /**
      * 商机转移
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param owner_user_id 变更负责人
      * @param is_remove 1移出，2转为团队成员
      * @param type 权限 1只读2读写
@@ -283,7 +283,7 @@ class Business extends ApiCommon
 
     /**
      * 相关产品
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */ 
@@ -323,7 +323,7 @@ class Business extends ApiCommon
 
     /**
      * 商机状态推进
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param business_id 商机ID
      * @param status_id 推进商机状态ID
      * @return
@@ -381,7 +381,7 @@ class Business extends ApiCommon
     
     /**
      * 商机导出
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */

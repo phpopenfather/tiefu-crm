@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 联系人
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com
+// | Author: Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -36,7 +36,7 @@ class Contacts extends ApiCommon
 
     /**
      * 联系人列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -51,7 +51,7 @@ class Contacts extends ApiCommon
 
     /**
      * 添加联系人
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -83,7 +83,7 @@ class Contacts extends ApiCommon
 
     /**
      * 联系人详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return 
      */
@@ -107,7 +107,7 @@ class Contacts extends ApiCommon
 
     /**
      * 编辑联系人
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -134,7 +134,7 @@ class Contacts extends ApiCommon
 
     /**
      * 删除联系人
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -194,7 +194,7 @@ class Contacts extends ApiCommon
 
     /**
      * 联系人转移
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param owner_user_id 变更负责人
      * @param is_remove 1移出，2转为团队成员
      * @param type 权限 1只读2读写
@@ -255,7 +255,7 @@ class Contacts extends ApiCommon
 
     /**
      * 联系人导入模板
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param string $save_path 本地保存路径     用于错误数据导出，在 Admin\Model\Excel::importExcel()调用
      * @return
      */ 
@@ -275,7 +275,7 @@ class Contacts extends ApiCommon
 
     /**
      * 联系人导出
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -313,7 +313,7 @@ class Contacts extends ApiCommon
 
     /**
      * 联系人数据导入
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */

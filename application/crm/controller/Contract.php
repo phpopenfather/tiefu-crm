@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 合同
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -38,7 +38,7 @@ class Contract extends ApiCommon
 
     /**
      * 合同列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -53,7 +53,7 @@ class Contract extends ApiCommon
 
     /**
      * 添加合同
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return 
      */
@@ -107,7 +107,7 @@ class Contract extends ApiCommon
 
     /**
      * 合同详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return 
      */
@@ -150,7 +150,7 @@ class Contract extends ApiCommon
 
     /**
      * 编辑合同
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -226,7 +226,7 @@ class Contract extends ApiCommon
 
     /**
      * 删除合同（逻辑删）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -298,7 +298,7 @@ class Contract extends ApiCommon
 
     /**
      * 合同转移
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param owner_user_id 变更负责人
      * @param is_remove 1移出，2转为团队成员
      * @param type 权限 1只读2读写
@@ -361,7 +361,7 @@ class Contract extends ApiCommon
 
     /**
      * 合同审核
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */  
@@ -491,7 +491,7 @@ class Contract extends ApiCommon
 
     /**
      * 合同撤销审核
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */  
@@ -551,7 +551,7 @@ class Contract extends ApiCommon
 
     /**
      * 相关产品
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */ 
@@ -592,7 +592,7 @@ class Contract extends ApiCommon
 
     /**
      * 导出
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -629,7 +629,7 @@ class Contract extends ApiCommon
 
      /**
      * 修改已审核过的合同为作废状态
-     * @author ZFH
+     * @author Jerry_yan
      * @param 
      * @return
      */ 

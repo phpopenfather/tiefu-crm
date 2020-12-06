@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: CRM工作台
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -16,7 +16,7 @@ class Index extends Common
 {
 	/**
 	 * 销售简报
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

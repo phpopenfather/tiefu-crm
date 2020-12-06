@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 回款计划
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -35,7 +35,7 @@ class ReceivablesPlan extends ApiCommon
 
     /**
      * 回款计划列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -50,7 +50,7 @@ class ReceivablesPlan extends ApiCommon
 
     /**
      * 添加回款计划
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -72,7 +72,7 @@ class ReceivablesPlan extends ApiCommon
 
     /**
      * 回款计划详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return 
      */
@@ -89,7 +89,7 @@ class ReceivablesPlan extends ApiCommon
 
     /**
      * 编辑回款计划
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -121,7 +121,7 @@ class ReceivablesPlan extends ApiCommon
 
     /**
      * 删除回款计划
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */

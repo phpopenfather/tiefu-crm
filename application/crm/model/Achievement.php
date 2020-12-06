@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 业绩目标
 // +----------------------------------------------------------------------
-// | Author:  yykun
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -240,7 +240,7 @@ class Achievement extends Common
 
 	/**
 	 * 创建对象考核信息
-	 * @author yykun
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -283,7 +283,7 @@ class Achievement extends Common
 
 	/**
 	 * 编辑信息
-	 * @author yykun
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

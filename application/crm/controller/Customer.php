@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 客户
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -42,7 +42,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */
     public function index()
@@ -57,7 +57,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户公海(没有负责人或已经到期)
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return
      */
     public function pool()
@@ -70,7 +70,7 @@ class Customer extends ApiCommon
 
     /**
      * 添加客户
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -90,7 +90,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return
      */
@@ -121,7 +121,7 @@ class Customer extends ApiCommon
 
     /**
      * 编辑客户
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -146,7 +146,7 @@ class Customer extends ApiCommon
 
     /**
      * 删除客户
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -244,7 +244,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户转移
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param owner_user_id 变更负责人
      * @param is_remove 1移出，2转为团队成员
      * @param types business,contract 相关模块
@@ -361,7 +361,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户放入公海(负责人置为0)
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */ 
@@ -413,7 +413,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户锁定，解锁
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param is_lock 1锁定，2解锁
      * @return
      */     
@@ -470,7 +470,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户领取
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -527,7 +527,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户分配
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -595,7 +595,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户导出
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -632,7 +632,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户导入模板下载
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param string $save_path 本地保存路径     用于错误数据导出，在 Admin\Model\Excel::batchImportData()调用
      * @return
      */
@@ -654,7 +654,7 @@ class Customer extends ApiCommon
     
     /**
      * 客户数据导入
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -679,7 +679,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户标记为已跟进
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -727,7 +727,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户公海导出
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -781,7 +781,7 @@ class Customer extends ApiCommon
 
     /**
      * 客户成交状态
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param status 1已成交,2未成交
      * @return
      */  

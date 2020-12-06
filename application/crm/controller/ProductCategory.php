@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 产品类别
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\crm\controller;
@@ -43,7 +43,7 @@ class ProductCategory extends ApiCommon
 
     /**
      * 产品分类列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -56,7 +56,7 @@ class ProductCategory extends ApiCommon
 
     /**
      * 添加产品分类
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return 
      */
@@ -77,7 +77,7 @@ class ProductCategory extends ApiCommon
 
     /**
      * 编辑产品分类
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -97,7 +97,7 @@ class ProductCategory extends ApiCommon
 
     /**
      * 删除产品分类
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */

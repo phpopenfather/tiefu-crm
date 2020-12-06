@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 商机组
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -21,7 +21,7 @@ class BusinessStatus extends Common
 
 	/**
      * [getDataList 商机状态list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  type_id  商机组ID
      * @return 
      */		
@@ -37,7 +37,7 @@ class BusinessStatus extends Common
 
 	/**
      * [getTypeList 商机组list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -74,7 +74,7 @@ class BusinessStatus extends Common
 
 	/**
 	 * 创建商机组
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -119,7 +119,7 @@ class BusinessStatus extends Common
 
 	/**
 	 * 编辑商机组信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  type_id 商机组类型ID
 	 * @return                            
 	 */	

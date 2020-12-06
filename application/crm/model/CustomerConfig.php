@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 客户扩展设置
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -24,7 +24,7 @@ class CustomerConfig extends Common
 
 	/**
      * [getDataList]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -56,7 +56,7 @@ class CustomerConfig extends Common
 
 	/**
 	 * 保存相关信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -82,7 +82,7 @@ class CustomerConfig extends Common
 
 	/**
 	 * 编辑相关信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

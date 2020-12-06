@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 线索
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -25,7 +25,7 @@ class Leads extends Common
 
 	/**
      * [getDataList 线索list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -156,7 +156,7 @@ class Leads extends Common
 
 	/**
 	 * 创建线索主表信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -193,7 +193,7 @@ class Leads extends Common
 
 	/**
 	 * 编辑线索信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

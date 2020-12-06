@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 客户设置
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\crm\model;
 
@@ -24,7 +24,7 @@ class ConfigData extends Common
 
 	/**
 	 * 保存相关信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -51,7 +51,7 @@ class ConfigData extends Common
 
 	/**
 	 * 获取相关信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
