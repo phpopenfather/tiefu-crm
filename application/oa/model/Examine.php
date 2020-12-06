@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 审批
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\oa\model;
 
@@ -27,7 +27,7 @@ class Examine extends Common
 
 	/**
      * [getDataList 审批list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -175,7 +175,7 @@ class Examine extends Common
 
 	/**
 	 * 创建审批信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -262,7 +262,7 @@ class Examine extends Common
 
 	/**
 	 * 编辑审批信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

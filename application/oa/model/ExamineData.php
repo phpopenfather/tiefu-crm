@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 公告
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\oa\model;
 
@@ -62,7 +62,7 @@ class ExamineData extends Common
 
 	/**
 	 * 读取自定义字段数据
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

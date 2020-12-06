@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 日志
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\oa\model;
 
@@ -26,7 +26,7 @@ class Log extends Common
 
 	/**
      * [getDataList 日志list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -264,7 +264,7 @@ class Log extends Common
 
 	/**
 	 * 编辑日志信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

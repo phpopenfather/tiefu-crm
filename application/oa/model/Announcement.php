@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 公告
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\oa\model;
 
@@ -32,7 +32,7 @@ class Announcement extends Common
 
 	/**
      * [getDataList 公告list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [by]                       $by [查询时间段类型]
      * @return
      */		
@@ -87,7 +87,7 @@ class Announcement extends Common
 
 	/**
 	 * 创建公告信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -140,7 +140,7 @@ class Announcement extends Common
 
 	/**
 	 * 编辑公告信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

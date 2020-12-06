@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 审批类型
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\oa\model;
 
@@ -24,7 +24,7 @@ class ExamineCategory extends Common
 
 	/**
      * [getDataList 审批类型list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [string]                   $map [查询条件]
      * @param     [number]                   $page     [当前页数]
      * @param     [number]                   $limit    [每页数量]
@@ -68,7 +68,7 @@ class ExamineCategory extends Common
 
 	/**
 	 * 创建审批类型信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -164,7 +164,7 @@ class ExamineCategory extends Common
 
 	/**
 	 * 编辑审批类型信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -214,7 +214,7 @@ class ExamineCategory extends Common
 
 	/**
 	 * 逻辑删除,将数据标记为删除状态
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 */	
 	public function signDelById($id, $user_id)
 	{

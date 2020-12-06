@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 工作日志
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\oa\controller;
@@ -50,7 +50,7 @@ class Log extends ApiCommon
 
     /**
      * 日志列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -66,7 +66,7 @@ class Log extends ApiCommon
 	
     /**
      * 标记已读
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */ 
 	public function setread()
@@ -87,7 +87,7 @@ class Log extends ApiCommon
 
     /**
      * 添加日志
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -111,7 +111,7 @@ class Log extends ApiCommon
 
     /**
      * 日志详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return
      */
@@ -135,7 +135,7 @@ class Log extends ApiCommon
 
     /**
      * 编辑日志
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -165,7 +165,7 @@ class Log extends ApiCommon
 
     /**
      * 删除日志 
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */

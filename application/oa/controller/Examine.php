@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 审批
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\oa\controller;
@@ -44,7 +44,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -60,7 +60,7 @@ class Examine extends ApiCommon
 
     /**
      * 添加审批
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return 
      */
@@ -113,7 +113,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param  
      * @return
      */
@@ -139,7 +139,7 @@ class Examine extends ApiCommon
 
     /**
      * 编辑审批
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -207,7 +207,7 @@ class Examine extends ApiCommon
 
     /**
      * 删除审批（逻辑删）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -244,7 +244,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批类型(列表)
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */ 
@@ -258,7 +258,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批类型(创建)
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */ 
@@ -279,7 +279,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批类型(编辑)
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -342,7 +342,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批类型（逻辑删）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */
@@ -360,7 +360,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批类型状态（启用、停用）
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param ids array
      * @param status 1启用，0禁用
      * @return
@@ -380,7 +380,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批类型列表(创建时)
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function categoryList()
@@ -404,7 +404,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批审核
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */  
@@ -527,7 +527,7 @@ class Examine extends ApiCommon
 
     /**
      * 审批撤销审核
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param 
      * @return
      */  

@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 公告
 // +----------------------------------------------------------------------
-// | Author: yyk
+// | Author: Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 
 namespace app\oa\controller;
@@ -36,7 +36,7 @@ class Announcement extends ApiCommon
 
     /**
      * 公告列表
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function index()
@@ -57,7 +57,7 @@ class Announcement extends ApiCommon
 	
     /**
      * 添加公告
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function save()
@@ -81,7 +81,7 @@ class Announcement extends ApiCommon
 
     /**
      * 公告详情
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function read()
@@ -111,7 +111,7 @@ class Announcement extends ApiCommon
 
     /**
      * 编辑公告
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function update()
@@ -134,7 +134,7 @@ class Announcement extends ApiCommon
 
     /**
      * 删除公告
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */ 
     public function delete()

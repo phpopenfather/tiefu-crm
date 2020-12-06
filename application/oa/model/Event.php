@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 日程
 // +----------------------------------------------------------------------
-// | Author:  Michael_xu | gengxiaoxu@5kcrm.com
+// | Author:  Jerry_yan | yanjialin@tiefu66.com
 // +----------------------------------------------------------------------
 namespace app\oa\model;
 
@@ -33,7 +33,7 @@ class Event extends Common
 
 	/**
      * [getDataList 日程list]
-     * @author Michael_xu
+     * @author Jerry_yan
      * @param     [by]                       $by [查询时间段类型]
      * @return    [array]                    [description]
      */		
@@ -94,7 +94,7 @@ class Event extends Common
 
 	/**
 	 * 创建日程信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	
@@ -161,7 +161,7 @@ class Event extends Common
 
 	/**
 	 * 编辑日程信息
-	 * @author Michael_xu
+	 * @author Jerry_yan
 	 * @param  
 	 * @return                            
 	 */	

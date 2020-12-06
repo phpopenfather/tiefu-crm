@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | Description: 办公消息模块
 // +----------------------------------------------------------------------
-// | Author: Michael_xu | gengxiaoxu@5kcrm.com 
+// | Author: Jerry_yan | yanjialin@tiefu66.com 
 // +----------------------------------------------------------------------
 
 namespace app\oa\controller;
@@ -36,7 +36,7 @@ class Message extends ApiCommon
 
     /**
      * 消息数
-     * @author Michael_xu
+     * @author Jerry_yan
      * @return 
      */
     public function num()
