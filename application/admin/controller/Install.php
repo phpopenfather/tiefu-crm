@@ -42,7 +42,7 @@ class Install extends Controller
 
     /**
      * [index 安装步骤]
-     * @author Michael_xu 
+     * @author Jerry_yan 
      * @param  
      */    
     public function index()
@@ -293,7 +293,7 @@ INFO;
 
     /**
      * [checkVersion 检查升级]
-     * @author Michael_xu 
+     * @author Jerry_yan 
      * @param  
      */     
     public function checkVersion(){
